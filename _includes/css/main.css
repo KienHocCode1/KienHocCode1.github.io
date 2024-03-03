@@ -7,7 +7,9 @@
 body {
     overflow-x: hidden;
 }
-
+.center-heading {
+    text-align: center;
+}
 p {
     font-size: 20px;
 }
@@ -35,6 +37,11 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+.double-line {
+    border: 1px solid black;
+    border-top: 4px double #ccc;
+}
+
 
 hr.star-light,
 hr.star-primary {
@@ -57,7 +64,14 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
 }
-
+.list-unstyled { 
+    color: #5382A1; }
+        .javascript-icon { color: #F0DB4F; }
+        .php-icon { color: #4F5D95; }
+        .html-css-icon { color: #E44D26; }
+        .csharp-icon { color: #68217A; }
+        .mysql-icon { color: #00758F; }
+        .python-icon { color: #4B8BBE; }
 hr.star-light {
     border-color: #fff;
 }
@@ -432,7 +446,10 @@ footer .footer-below {
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
-
+.dotted-line {
+    border: none;
+    border-top: 2px dotted #ccc;
+}
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
